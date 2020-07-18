@@ -1,6 +1,6 @@
 ﻿# food-festival
 
-Mobile web application showing venue info such as event detail, calendar, and location, where the project focuss on improving image and page load performance and offline usability.
+Mobile web application showing venue info such as event detail, calendar, and location, where the project focuses on improving image and page load performance and offline usability.
 
 ## GitHub URL
 
