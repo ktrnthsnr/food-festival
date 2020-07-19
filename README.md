@@ -6,6 +6,10 @@ Mobile web application showing venue info such as event detail, calendar, and lo
 
 https://github.com/ktrnthsnr/food-festival
 
+## GitHub hosted website
+
+https://ktrnthsnr.github.io/food-festival
+
 
 ## Table of Contents
 
