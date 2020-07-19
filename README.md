@@ -22,7 +22,7 @@ https://github.com/ktrnthsnr/food-festival
 ## Technology
 
 - Performance monitoring tools and plugins: Google Lighthouse, Google DevTools, webpack bundler, webpack-bundle-analyzer, file-loader, image-webpack-loader, SW-precache-webpack, webpack-PWA-manifest plugins
-- Software: MongoDB, Mongoose JS, Node.js, npm, Express.js, Moment.js, Insomnia, JavaScript, ES6, Heroku, mLab, HTML, CSS
+- Software: MongoDB, Mongoose JS, Node.js, npm, Express.js, JavaScript, ES6, HTML, CSS
 
 ## Installations
 
