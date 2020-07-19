@@ -51,12 +51,18 @@ https://ktrnthsnr.github.io/food-festival
 - $ `npm i bootstrap`
 - Install popper.js
 - $ `npm i popper.js`
+- Install the webpack-bundle-analyzer
+- $ `npm install -D webpack-bundle-analyzer`
 
 ## Usage
 
-- Clone the repo to your desktop, complete the installation, then execute the webpack
+- Clone the repo to your desktop, complete the installation.
+Then the app is ready for deployment to development. 
+To execute the webpack, run in the bash terminal,
 - $ `npm run build`
-- Then the app is ready for deployment to development.
+- 
+- This will start An interactive tree map will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the report:
+- ![Interactive Tree Map](./report_sample.jpg "Interactive Tree Map")
 
 ## Performance
 - Completed performance testing before and after applying related fixes.
