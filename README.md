@@ -58,6 +58,17 @@ https://ktrnthsnr.github.io/food-festival
 
 
 ## Testing
+- Testing before and after applying performance related fixes
+- Firstly, performance testing showed: logos and app images makes rendering and adding orders slow. View performance load times with Google Chrome > devtools > Lighthouse for mobile
+- Appled these fixes: optimization techniques used to quicken page load time, including
+    * Minified JS files through https://javascript-minifier.com/ 
+    * Compressed images, from PNG (lossless) to JPG (lossy) with Optimizilla https://imagecompressor.com/
+    * Added image and JavaScript lazy loading
+    * update synchronous to async
+    
+
+    * remove extraneous JavaScript libraries
+    
 
 
 ## Contribution
