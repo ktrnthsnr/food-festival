@@ -22,12 +22,13 @@ https://ktrnthsnr.github.io/food-festival
 
 ## Description
 
-A food festival website containing vivid imagery and a site menu and carousel containing a home page, schedule, and a page for ordering tickets to the festival. 
+A food festival website containing vivid imagery and a site menu and carousel showcasing a home page, schedule, and a page for ordering tickets to the festival. 
 
 ## Technology
 
+Tools used for this project
 - Performance monitoring tools and plugins: Google Lighthouse, Google DevTools, webpack bundler, webpack-bundle-analyzer, file-loader, image-webpack-loader, SW-precache-webpack, webpack-PWA-manifest plugins
-- Software: MongoDB, Mongoose JS, Node.js, npm, Express.js, JavaScript, ES6, HTML, CSS
+- Software: Node.js, npm, Express.js, JavaScript, ES6, HTML, CSS
 
 ## Installations
 
