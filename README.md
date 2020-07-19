@@ -22,6 +22,7 @@ https://ktrnthsnr.github.io/food-festival
 
 ## Description
 
+A food festival website containing vivid imagery and a site menu and carousel containing a home page, schedule, and a page for ordering tickets to the festival. 
 
 ## Technology
 
