@@ -17,7 +17,7 @@ https://ktrnthsnr.github.io/food-festival
 * [Technology](#technology)
 * [Installations](#installations)
 * [Usage](#usage)
-* [Testing](#testing)
+* [Performance](#performance)
 * [Contribution](#contribution)
 
 ## Description
@@ -36,40 +36,38 @@ https://ktrnthsnr.github.io/food-festival
 - Install all components listed within the package.json file for npm
 - $ `npm i`
 -
-- For custom installations, start with initializing npm
-- $ `npm init -y` or $ `npm install`
-- Manaully update the package.json to  `"main": "server.js",` instead of index.js
-- Create a .gitignore file in the root and add `node_modules` to this file
-- If you need to re-add the dependencies, run $ `npm install`
-- Install npm express, more info https://www.npmjs.com/package/express
-- $ `npm install express`
-- Install MongoDB, first create a `c:\data\db` directory on your root, then install the Community Server from https://www.mongodb.com/try/download/community, excluding the compass from the installation, and adding the /bin folder to the environment variable PATH.
-- Install the middleware MoongooseJS library
-- $ `npm install mongoose`
-- Install npm Moment.js
-- $ `npm install moment`
+- For custom installations here are each installation component
+- To create a new package.json, start with initializing npm
+- $ `npm init --y` or $ `npm install`
+- Install webpack and webpack CLI
+- $ `npm i -D webpack webpack-cli`
+- Check webpack is installed, checking for the version
+- $ `webpack -v`
+- If you received this error, `webpack: command not found` resolve by running this
+- $ `npm run webpack -v`
+- Install the jQuery package
+- $ `npm i jQuery`
+- Install bootstrap
+- $ `npm i bootstrap`
+- Install popper.js
+- $ `npm i popper.js`
 
 ## Usage
 
-- The application may be viewed through the Heroku website.
-- However, if cloning locally from github, complete the installation, then start up at the bash commandline, by typing
-- $ `npm start`
-- Here is walkthrough of the application from the localhost:3001
+- Clone the repo to your desktop, complete the installation, then execute the webpack
+- $ `npm run build`
+- Then the app is ready for deployment to development.
 
-
-## Testing
-- Testing before and after applying performance related fixes
-- Firstly, performance testing showed: logos and app images makes rendering and adding orders slow. View performance load times with Google Chrome > devtools > Lighthouse for mobile
+## Performance
+- Completed performance testing before and after applying related fixes.
+- Firstly, performance testing showed: logos and app images makes rendering and adding orders slow. 
+    * Audited website performance load times with Google Chrome > devtools > Lighthouse tool for mobile
 - Appled these fixes: optimization techniques used to quicken page load time, including
     * Minified JS files through https://javascript-minifier.com/ 
     * Compressed images, from PNG (lossless) to JPG (lossy) with Optimizilla https://imagecompressor.com/
     * Added image and JavaScript lazy loading
-    * update synchronous to async
-    
-
-    * remove extraneous JavaScript libraries
-    
-
+    * Updated code from synchronous to asyncs
+    * Removed extraneous JavaScript libraries
 
 ## Contribution
 
