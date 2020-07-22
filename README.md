@@ -33,43 +33,48 @@ Tools used for this project
 ## Installations
 
 - For local installations, below are the steps required.
-- Prereq for your desktop: install VSCode and Node.js on your desktop
-- After cloning the GitHub repo to your local drive, run the following in the VSCode command-line terminal
-- Install all components listed within the package.json file for npm
+- Prereq for your desktop: Install VSCode and Node.js on your desktop.
+- Then clone this GitHub repo to your local drive.
+- To install all dependency components listed within the package.json file for npm, run in the VS Code bash terminal:
 - $ `npm i`
 -
-- For custom installations here are each installation component
-- To create a new package.json, start with initializing npm
-- $ `npm init --y` or $ `npm install`
-- Install webpack and webpack CLI
-- $ `npm i -D webpack webpack-cli`
-- Check webpack is installed, checking for the version
-- $ `webpack -v`
-- If you received this error, `webpack: command not found` resolve by running this
-- $ `npm run webpack -v`
-- Install the jQuery package
-- $ `npm i jQuery`
-- Install bootstrap
-- $ `npm i bootstrap`
-- Install popper.js
-- $ `npm i popper.js`
-- Install the webpack-bundle-analyzer
-- $ `npm install -D webpack-bundle-analyzer`
+- Below are are each installation components utilized for this project:
 
-- Install webpack loader
+(Note, to run this application and website, you do not need to install these. These are listed to itemize the npm modules used to create the bundles and optimizations, and therefore the config and scripts have already been updated to support these optimizations.)
+
+- Created a new package.json, started with initializing npm
+- $ `npm init --y` or $ `npm install`
+- Installed webpack and webpack CLI
+- $ `npm i -D webpack webpack-cli`
+- Checked webpack is installed, checking for the version
+- $ `webpack -v`
+- Received this error, `webpack: command not found` resolved by running this
+- $ `npm run webpack -v`
+- Installed the jquery package
+- $ `npm i jquery`
+- Installed bootstrap
+- $ `npm i bootstrap`
+- Installed popper.js
+- $ `npm i popper.js`
+- Installed the webpack-bundle-analyzer
+- $ `npm install -D webpack-bundle-analyzer`
+- Installed file-loader to optimize image files
+- $ `npm install -D file-loader`
+
+- Installed webpack loader
 - $ `npm install image-webpack-loader`
-- Install dev server
+- Installed dev server
 - $ `npm install webpack-dev-server`
 
 ## Usage
 
 - This application's website is hosted on GitHub https://ktrnthsnr.github.io/food-festival
-
-- If cloning this repo to your desktop, and after completing the npm installation per above, you may view the app, by launching the `index.html` within your local desktop's browser. Note, the app is ready for deployment to a development environment.
-- To execute the webpack and view the bundle report, run in the bash terminal,
+- ![FoodFestival](./img/FoodFestival.jpg "Food Festival")
+- If cloning this repo to your desktop, and after completing the npm installation per above `npm i`, you may view the app, by launching the `index.html` within your local desktop's browser. Note, the app was deployed to a development environment.
+- To execute a webpack and view the report.html of bundled components, run in the bash terminal the following: (Note, this will recreate the bundled files on dist folder as well.)
 - $ `npm run build`
-- This will start an interactive tree map will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the report:
-- ![Interactive Tree Map](./report_sample.jpg "Interactive Tree Map")
+- This will start an interactive tree map and will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the webpack report after modularization:
+- ![Interactive Tree Map](./img/report_sample.html_afterImageFileLoader.jpg "Interactive Tree Map")
 
 ## Performance
 

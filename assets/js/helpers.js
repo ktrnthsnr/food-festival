@@ -1,5 +1,5 @@
 require("bootstrap");
-const createEl = require("./domMethods");
+// const createEl = require("./domMethods");
 
 dateConverter = function(UNIX_timestamp) {
     const a = new Date(UNIX_timestamp);
