@@ -28,12 +28,12 @@ A food festival website containing vivid imagery and a site menu and carousel sh
 
 Tools used for this project
 - Performance monitoring tools and plugins: Google Lighthouse, Google DevTools, webpack bundler, webpack-bundle-analyzer, file-loader, image-webpack-loader, SW-precache-webpack, webpack-PWA-manifest plugins
-- Software: Node.js, npm, Express.js, JavaScript, ES6, HTML, CSS
+- Software: Node.js, npm, Express.js, GitHub, JavaScript, ES6, HTML, CSS
 
 ## Installations
 
-- For local installations, below are various steps required.
-- Prereq for your desktop: install VSCode, Node.js, and MySQL http://dev.mysql.com/downloads/
+- For local installations, below are the steps required.
+- Prereq for your desktop: install VSCode and Node.js on your desktop
 - After cloning the GitHub repo to your local drive, run the following in the VSCode command-line terminal
 - Install all components listed within the package.json file for npm
 - $ `npm i`
@@ -56,18 +56,24 @@ Tools used for this project
 - Install the webpack-bundle-analyzer
 - $ `npm install -D webpack-bundle-analyzer`
 
+- Install webpack loader
+- $ `npm install image-webpack-loader`
+- Install dev server
+- $ `npm install webpack-dev-server`
+
 ## Usage
 
-- Clone the repo to your desktop, complete the installation.
-Then the app is ready for deployment to development. 
-To execute the webpack, run in the bash terminal,
+- This application's website is hosted on GitHub https://ktrnthsnr.github.io/food-festival
+
+- If cloning this repo to your desktop, and after completing the npm installation per above, you may view the app, by launching the `index.html` within your local desktop's browser. Note, the app is ready for deployment to a development environment.
+- To execute the webpack and view the bundle report, run in the bash terminal,
 - $ `npm run build`
-- 
-- This will start An interactive tree map will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the report:
+- This will start an interactive tree map will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the report:
 - ![Interactive Tree Map](./report_sample.jpg "Interactive Tree Map")
 
 ## Performance
-- Completed performance testing before and after applying related fixes.
+
+- For this project, I completed performance testing before and after applying fixes.
 - Firstly, performance testing showed: logos and app images makes rendering and adding orders slow. 
     * Audited website performance load times with Google Chrome > devtools > Lighthouse tool for mobile
 - Appled these fixes: optimization techniques used to quicken page load time, including
