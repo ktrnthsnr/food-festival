@@ -1,6 +1,6 @@
 ﻿# food-festival
 
-Mobile web application showing venue info such as event detail, calendar, and location, where the project focuses on improving image and page load performance and offline usability.
+Mobile web application showing venue info such as event detail, calendar, and location, where the project focuses on improving image and page load performance through webpack bundling and offline usability through an IndexedDB and a service worker.
 
 ## GitHub URL
 
@@ -22,17 +22,22 @@ https://ktrnthsnr.github.io/food-festival
 
 ## Description
 
-A food festival website containing vivid imagery and a site menu and carousel showcasing a home page, schedule, and a page for ordering tickets to the festival. 
+This repo contains JavaScript, HTML and CSS code that creates a food festival website containing vivid imagery in a site menu and carousel showcasing a home page, schedule, and a page for ordering tickets to the festival. 
 
 ## Technology
 
-Tools used for this project
-- Performance monitoring tools and plugins: Google Lighthouse, Google DevTools, webpack bundler, webpack-bundle-analyzer, file-loader, image-webpack-loader, SW-precache-webpack, webpack-PWA-manifest plugins
-- Software: Node.js, npm, Express.js, GitHub, JavaScript, ES6, HTML, CSS
+This project required the following
+
+- Platform, framework, and scripting languages: 
+Node.js, npm, Express.js, GitHub, JavaScript, ES6, HTML, CSS
+
+- Performance monitoring tool, and optimization, caching, and PWA plugins: 
+Google Chrome DevTools & Lighthouse, webpack bundler, webpack-bundle-analyzer, file-loader, image-webpack-loader, SW-precache-webpack, webpack-PWA-manifest plugins
+
 
 ## Installations
 
-- For local installations, below are the steps required.
+For local installations
 - Prereq for your desktop: Install VSCode and Node.js on your desktop.
 - Then clone this GitHub repo to your local drive.
 - To install all dependency components listed within the package.json file for npm, run in the VS Code bash terminal:
@@ -78,10 +83,10 @@ Tools used for this project
 
 ## Performance
 
-- For this project, I completed performance testing before and after applying fixes.
+- For this project, I've completed performance testing before and after applying fixes.
 - Firstly, performance testing showed: logos and app images makes rendering and adding orders slow. 
     * Audited website performance load times with Google Chrome > devtools > Lighthouse tool for mobile
-- Appled these fixes: optimization techniques used to quicken page load time, including
+- Applied these fixes: optimization techniques used to quicken page load time, including
     * Minified JS files through https://javascript-minifier.com/ 
     * Compressed images, from PNG (lossless) to JPG (lossy) with Optimizilla https://imagecompressor.com/
     * Added image and JavaScript lazy loading
