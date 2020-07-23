@@ -7,13 +7,11 @@ Mobile web application showing food venue details such as event info, schedule, 
     https://github.com/ktrnthsnr/food-festival
 
 ## GitHub hosted website
-
-    * https://ktrnthsnr.github.io/food-festival
+https://ktrnthsnr.github.io/food-festival
     
 
-    * Walkthrough on the localhost webpack dev server of the mobile app demonstrating the bundled files report, the IndexedDB storage and service worker cached files through Chrome DevTools - functioning online and offline
-
-    *  https://drive.google.com/file/d/1FweBSsHWJ0NKoXcPO36I6Y2IXMepjNt7/view
+* Walkthrough on the localhost webpack dev server of the mobile app demonstrating the bundled files report, the IndexedDB storage and service worker cached files through Chrome DevTools - functioning online and offline
+*  https://drive.google.com/file/d/1FweBSsHWJ0NKoXcPO36I6Y2IXMepjNt7/view
 
 
 ## Table of Contents
@@ -101,8 +99,8 @@ for example, `C:/projects/food-festival/index.html`
 
 - For this project, I've completed performance testing before and after applying config to improve.
 - Firstly, performance testing showed logos and app images made rendering and adding orders slow. 
-    * Audited website performance load times with Google Chrome > devtools > Lighthouse tool for mobile
-- Applied these optimization techniques used to quicken page load time and allow for offline functionality, including
+    * Audited website performance load times with Google Chrome > devtools > Lighthouse
+- Applied these optimization techniques to quicken page load time and allow for offline functionality, including
     * Minified JS files through https://javascript-minifier.com/ 
     * Compressed images, from PNG (lossless) to JPG (lossy) with Optimizilla https://imagecompressor.com/
     * Added image and JavaScript lazy loading
@@ -110,7 +108,7 @@ for example, `C:/projects/food-festival/index.html`
     * Removed extraneous JavaScript libraries
     * Added IndexedDB object store and a service worker to store and cache files if a user loses internet connection
     * Added a service worker to cache files 
-    * Added a web manifest to convert the mobile app to a Progressive Web Application (PWA) to allow for downloading of the app to the mobile device
+    * Through the webpack, created a manifest.json to convert the mobile app to a Progressive Web Application (PWA) to allow for downloading of the app to the mobile device
 
 ## Contribution
 
