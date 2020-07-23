@@ -4,11 +4,16 @@ Mobile web application showing food venue details such as event info, schedule, 
 
 ## GitHub URL
 
-https://github.com/ktrnthsnr/food-festival
+    https://github.com/ktrnthsnr/food-festival
 
 ## GitHub hosted website
 
-https://ktrnthsnr.github.io/food-festival
+    * https://ktrnthsnr.github.io/food-festival
+    
+
+    * Walkthrough on the localhost webpack dev server of the mobile app demonstrating the bundled files report, the IndexedDB storage and service worker cached files through Chrome DevTools - functioning online and offline
+
+    *  https://drive.google.com/file/d/1FweBSsHWJ0NKoXcPO36I6Y2IXMepjNt7/view
 
 
 ## Table of Contents
