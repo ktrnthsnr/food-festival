@@ -1,6 +1,6 @@
 ﻿# food-festival
 
-Mobile web application showing venue info such as event detail, calendar, and location, where the project focuses on improving image and page load performance through webpack bundling and offline usability through an IndexedDB and a service worker.
+Mobile web application showing food venue details such as event info, schedule, and ticket purchasing options, utilizing PWA techniques for improving page load performance through webpack bundling, offline usability through an IndexedDB object store and caching through a service worker.
 
 ## GitHub URL
 
@@ -22,11 +22,11 @@ https://ktrnthsnr.github.io/food-festival
 
 ## Description
 
-This repo contains JavaScript, HTML and CSS code that creates a food festival website containing vivid imagery in a site menu and carousel showcasing a home page, schedule, and a page for ordering tickets to the festival. 
+This website build project contains Progressive Web Application (PWA) elements for adding offline functionality, quick performance, smooth scrolling, and no lag targeted specifically for a mobile user. The Food Festival website is heavy on vivid imagery in a site menu and carousel showcasing a home page, schedule, and a page for ordering tickets to the festival, so image and javascript bundling and optimization on first load were essential towards improving performance. Additionally an IndexedDB store, and service worker caching were added to allow for internet connectivity interrupts, very common for mobile app users, to allow for seamless web app scrolling, and ticket purchasing - with or without an internet connection.
 
 ## Technology
 
-This project required the following
+This project required the following technology to create, audit and optimize:
 
 - Platform, framework, and scripting languages: 
 Node.js, npm, GitHub, JavaScript, ES6, HTML, CSS, webpack-dev-server
@@ -67,16 +67,18 @@ For local installations
 - $ `npm install -D file-loader`
 - Installed webpack loader
 - $ `npm install image-webpack-loader`
-- Installed dev server to view HTTPS locally
+- Installed dev server to view the mobile app locally
 - $ `npm install webpack-dev-server -D`
 
 ## Usage
 
 - This application's website is hosted on GitHub https://ktrnthsnr.github.io/food-festival
 - ![FoodFestival](./img/FoodFestival.jpg "Food Festival")
-- If cloning this repo to your desktop, and after completing the npm installation per above `npm i`, you may view the website by right clicking `index.html` and viewing on your browser, for example, `C:/projects/food-festival/index.html`
 
-- To view the application on the development server, run on your bash terminal and view on the browser at `http://localhost:8080`
+- If cloning this repo to your desktop, and after completing the npm installation per above `npm i`, you may view the website by right clicking `index.html` and viewing on your browser, 
+for example, `C:/projects/food-festival/index.html`
+
+- To view the application on the development server, run on your bash terminal and view the cached objects within Chrome DevTools on the browser at `http://localhost:8080`
 - $ `npm run start:dev`
 
 - To execute a webpack and view the report.html of bundled components, run in the bash terminal the following: (Note, this will recreate the bundled files on dist folder as well.)
@@ -84,6 +86,7 @@ For local installations
 - This will start an interactive tree map and will render a report.html in the browser locally under c:/food-festival/dist/report.html, showing each bundle size being loaded.  Here is the webpack report after modularization:
 - ![Interactive Tree Map](./img/report_sample.html_afterImageFileLoader.jpg "Interactive Tree Map")
 
+- As a PWA, the user may save the application on their mobile device.
 
 ## Performance
 
